@@ -167,7 +167,6 @@ section{
 
 }
 .section-text{
-    margin: 0 20px;
     align-self: center;
     text-align: center;
 }
@@ -190,7 +189,9 @@ section{
     margin-bottom: 1rem;
 }
 .title{
-    font-size: 3rem;
+    
+    font-weight: 900;
+    font-size: 2.7rem;
     text-align: center;
 }
 .socials-container{
