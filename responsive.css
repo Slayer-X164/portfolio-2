@@ -1,7 +1,7 @@
 @media screen and (max-width:1200px){
     nav{
         justify-content: space-between;
-        height: 10vh;
+        height: 13vh;
         padding: 0 1rem;
     }
     #desktop-nav{
