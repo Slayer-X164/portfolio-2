@@ -167,6 +167,7 @@ section{
 
 }
 .section-text{
+    margin: 0 20px;
     align-self: center;
     text-align: center;
 }
