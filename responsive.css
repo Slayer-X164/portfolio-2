@@ -1,13 +1,42 @@
-@media screen and (max-width:1200px){
-    nav{
-        justify-content: space-between;
-        height: 13vh;
-        padding: 0 1rem;
-    }
-    #desktop-nav{
-        display: none;
-    }
-    #hamburger-nav{
-        display: flex;
-    }
+@media screen and (max-width: 1200px) {
+  nav {
+    justify-content: space-between;
+    height: 13vh;
+    padding: 0 1rem;
+  }
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #about {
+    /* background-color: aqua; */
+    padding: 1rem 1rem;
+    margin-top: 10rem;
+    height: 70vh;
+    justify-content: center;
+  }
+  .about-img {
+    display: none;
+  }
+  .about-content-container {
+    padding: 1rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+  }
+  .numb-container {
+    /* flex-wrap: wrap; */
+    gap: 2rem;
+    width: 100%;
+    padding: 0 0;
+    background-color: red;
+  }
+  .about-text {
+    width: 100%;
+    padding: 0;
+    /* background-color: red; */
+  }
 }
